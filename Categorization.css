@@ -1,0 +1,73 @@
+.medicine-list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.medicine-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.medicine-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.medicine-info h3 {
+  margin: 0;
+  color: #0070a9;
+}
+
+.medicine-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.recommend-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #0070a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recommend-btn:hover {
+  background-color: #005f87;
+}
+
+.recommendations {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.recommendations h2 {
+  margin-bottom: 15px;
+}
+
+.recommendations ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recommendations ul li {
+  margin-bottom: 8px;
+  color: #333;
+}
